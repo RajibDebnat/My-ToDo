@@ -1,0 +1,58 @@
+/* *{background-color: white;} */
+.notask_main_container {
+    /* background-color: red; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 98vh;
+    border-radius: 15px;
+}
+
+.btn_parent {
+    display: flex;
+    align-items: center;
+    /* border: ; */
+    background-color: #868e96;
+    border-radius: 10px;
+    color: white;
+    transition-duration: background-color 0.5s;
+}
+
+.btn_parent:hover {
+    background-color: #495057;
+}
+
+.notask_container {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+    margin-top: 10px;
+}
+
+.create_btn {
+    background-color: transparent;
+    color: #fff;
+    display: flex;
+    align-items: center;
+    gap: 3px;
+    font-size: 20px;
+    outline: none;
+    padding: 8px 25px;
+    border: none;
+    transition: background-color 0.3s, color 0.3s, padding 0.3s; /* Added transition */
+}
+
+.create_btn:hover {
+    background-color: #495057;
+    color: #fff; /* You can change the text color on hover if needed */
+    padding: 10px 30px; /* Example: Adjust padding on hover */
+}
+
+/* Media query for desktop screens */
+@media (min-width: 1024px) {
+  .create_btn {
+    font-size: 24px; /* Example: Adjust font size for larger screens */
+  }
+}

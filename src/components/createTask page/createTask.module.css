@@ -1,0 +1,48 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    font-size: 62.5%;
+}
+
+.CreateTask_container{
+border-radius: 15px;
+box-shadow: #f1f3f5 0px 0px 5px 2px ;
+height: 90vh;
+background-color: #ffffff;
+padding: 50px;
+}
+.header_parent{
+
+}
+.user_name{
+    font-family: 'montserrat',sans-serif;
+    border-bottom: 1px wavy black;}
+.date{
+    font-family: 'roboto',sans-serif;
+    font-size: 14px;
+    margin-top: 4px;
+    line-height: 1.7;
+    text-decoration: wavy;
+    color: gray;
+}
+
+/* CSS */
+.sub_btn_parent{
+    margin-top: 15px;
+    display: flex;
+    gap: 10px;
+}
+.form{
+    box-shadow: rgb(223, 222, 222) 0 0 2px 2px;
+    padding: 40px 50px;
+    border-radius: 15px;
+    max-width: 50%;
+    background-color:#e3fafc;
+    margin-top: 15px;
+}
